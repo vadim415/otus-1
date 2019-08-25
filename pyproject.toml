@@ -14,7 +14,7 @@ black = {version = "^18.3-alpha.0", allows-prereleases = true}
 flake8 = "^3.7"
 
 [tool.poetry.scripts]
-top-verbs = 'top_verbs.main:main'
+top-verbs = 'main:main'
 
 [build-system]
 requires = ["poetry>=0.12"]
